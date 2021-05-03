@@ -35,7 +35,7 @@
 ```sudo chattr +i test_2```
 
 -   Try to remove that directory.  
-
+```rm: cannot remove 'test_2/': Is a directory```  
 
 -   Create simple script which prints current date. Try to execute it.  
 ```touch test.sh```  
