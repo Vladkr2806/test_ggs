@@ -31,8 +31,8 @@
 ## Permissions
 
 -   Create test directory and block access for all to it.  
-```mkdir test_2 
-sudo chattr +i test_2```
+```mkdir test_2```
+```sudo chattr +i test_2```
 
 -   Try to remove that directory.  
 
