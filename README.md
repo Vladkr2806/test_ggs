@@ -67,4 +67,5 @@
 - Task with * . Write script to show which pages Google checked from the website  
 ```#!/bin/bash  
 grep -i 'Google' test.txt | awk '{print$7}'```  
-[файл](https://github.com/Vladkr2806/test_ggs/blob/main/google_check.sh)
+[файл](https://github.com/Vladkr2806/test_ggs/blob/main/google_check.sh)  
+
