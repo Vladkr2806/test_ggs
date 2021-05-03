@@ -53,7 +53,7 @@
 ```tail -n3 test.txt```
 
 -  Hom many uniq IP addresses accessed the website ?  
-```wk '{print$1}' test.txt  | sort | uniq -c | sort -n | wc -l```
+```awk '{print$1}' test.txt  | sort | uniq -c | sort -n | wc -l```
 
 -  IP address with most requests.  
 ```awk '{print$1}' test.txt  | sort | uniq -c | sort -n | tail -n1 ```
