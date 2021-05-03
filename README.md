@@ -31,17 +31,17 @@
 ## Permissions
 
 -   Create test directory and block access for all to it.  
-```mkdir test_2```
+```mkdir test_2```  
 ```sudo chattr +i test_2```
 
 -   Try to remove that directory.  
 
 
 -   Create simple script which prints current date. Try to execute it.  
-```touch test.sh  
-vim test.sh - #!/bin/bash date  
-chmod +x test.sh  
-./test.sh```  
+```touch test.sh```  
+```vim test.sh - #!/bin/bash date```  
+```chmod +x test.sh```  
+```./test.sh```  
 [файл](https://github.com/Vladkr2806/test_ggs/blob/main/test.sh)
 
 ## Log checking
