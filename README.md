@@ -1,7 +1,7 @@
 ## Basic work with files
 
 - Create directory test1  
-mkdir test1
+```mkdir test1```
 
 - Create file test1.txt inside the test1 directory.  
 touch test1.txt
@@ -42,7 +42,7 @@ touch test.sh
 vim test.sh - #!/bin/bash date  
 chmod +x test.sh  
 ./test.sh
-
+[файл](https://github.com/Vladkr2806/test_ggs/blob/main/test.sh)
 
 ## Log checking
 
@@ -67,3 +67,4 @@ grep ' 403 ' test.txt | awk '{print$1}'
 - Task with * . Write script to show which pages Google checked from the website  
 #!/bin/bash  
 grep -i 'Google' test.txt | awk '{print$7}'  
+[файл](https://github.com/Vladkr2806/test_ggs/blob/main/google_check.sh)
