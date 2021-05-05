@@ -74,4 +74,5 @@
 - Replace IP address with most requests on 127.0.0.1 in test.txt file  
 ```sed -i "s/$114.119.140.234/$127.0.0.1/" test.txt```  
 ```awk '{print$1}' test.txt  | sort | uniq -c | sort -n | tail -n1```  
-``` 16  127.0.0.1```
+``` 16  127.0.0.1```  
+[скріпт], який знаходить і замінює IP адресу, яка найчастіше повторюється, на 127.0.0.1
