@@ -69,3 +69,9 @@
 ```grep -i 'Google' test.txt | awk '{print$7}'```  
 [файл](https://github.com/Vladkr2806/test_ggs/blob/main/google_check.sh)  
 
+##Replace
+
+- Replace IP address with most requests on 127.0.0.1 in test.txt file  
+```sed -i "s/$114.119.140.234/$127.0.0.1/" test.txt```  
+```awk '{print$1}' test.txt  | sort | uniq -c | sort -n | tail -n1```  
+``` 16  127.0.0.1```
